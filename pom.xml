@@ -10,9 +10,9 @@
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
 		<java-version>1.8</java-version>
-		<org.springframework-version>5.2.2.RELEASE</org.springframework-version>
+		<org.springframework-version>5.2.5.RELEASE</org.springframework-version>
 		<org.aspectj-version>1.9.5</org.aspectj-version>
-		<org.slf4j-version>1.7.30</org.slf4j-version>
+		<org.slf4j-version>2.0.0-alpha1</org.slf4j-version>
 	</properties>
 
 	<!-- oracle라이브러리 다운로드 위치 설정 --> 
@@ -124,12 +124,12 @@
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
-			<version>3.5.3</version>
+			<version>3.5.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis-spring</artifactId>
-			<version>2.0.3</version>
+			<version>2.0.4</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-dbcp</groupId>
@@ -161,7 +161,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.10</version>
+			<version>1.18.12</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -175,38 +175,38 @@
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpcore</artifactId>
-			<version>4.4.12</version>
+			<version>4.4.13</version>
 		</dependency>
 
 		<!-- httpclient(카카오) -->
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
-			<version>4.5.10</version>
+			<version>4.5.12</version>
 		</dependency>
 
 		<!-- Spring Security related libraries -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-core</artifactId>
-			<version>5.2.1.RELEASE</version>
+			<version>5.3.1.RELEASE</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-web -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-web</artifactId>
-			<version>5.2.1.RELEASE</version>
+			<version>5.3.1.RELEASE</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-config</artifactId>
-			<version>5.2.1.RELEASE</version>
+			<version>5.3.1.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-taglibs</artifactId>
-			<version>5.2.1.RELEASE</version>
+			<version>5.3.1.RELEASE</version>
 		</dependency>
 		
 		<!-- 업로드 lib -->
@@ -246,21 +246,21 @@
 		<dependency>
 			<groupId>com.google.cloud</groupId>
 			<artifactId>google-cloud-storage</artifactId>
-			<version>1.102.0</version>
+			<version>1.107.0</version>
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.10.1</version>
+			<version>2.11.0.rc1</version>
 		</dependency> 
 
 		<!-- Test -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.13-rc-2</version>
+			<version>4.13</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
