@@ -26,4 +26,4 @@ API : Kakao login API, Google Map API
 
 Tool : Eclipse, Sql developer
 
-형상 관리 : Github, Trello
+협업 툴 : Github, Trello
